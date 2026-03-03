@@ -10,7 +10,7 @@ class Solution {
             int[] arr=new int[n];
             int j=0;;
             for(int k=0;k<n;k++){
-                if(nums[k]>0){
+                if(nums[k]!=0){
                     arr[j++]=nums[k];
 
                 }
